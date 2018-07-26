@@ -1,4 +1,4 @@
-package com.code.common.tool;
+package com.code.common.tool.json;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 
+/**
+ * Json转换工具
+ */
 @Slf4j
 public class JsonUtils {
 
